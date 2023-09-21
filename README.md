@@ -1,4 +1,6 @@
-# LAB-A-leader-advocate-believer-based-optimization-algorithm
+# LAB : a leader–advocate–believer-based optimization algorithm
+## Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023): LAB : a leader–advocate–believer-based optimization algorithm. Soft Computing (2023). https://doi.org/10.1007/s00500-023-08033-y
+
 
 ## Abstract
 
@@ -34,29 +36,35 @@
 
 ### CEC 2005 Functions 
 <div align="center">
-    <b>Booth ()</b>
+    <b>F10 Booth (Multimodal Separable)</b>
 </div>
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/boothsub.png" alt="booth">  
 </p>
 
 <div align="center">
-    <b>Hartmann6</b>
+    <b>F20 Hartmann6 (Multimodal Non-separable)</b>
 </div>
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/hartmann6sub.png" alt="hartmann6">  
 </p>
 
 <div align="center">
-    <b>Matyas</b>
+    <b>F25 Matyas (Unimodal Separable)</b>
 </div>
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/matyassub.png" alt="matyas">  
 </p>
 
 <div align="center">
-    <b>Sixhump Camelback</b>
+    <b>F43 Sixhump Camelback (Multimodal Non-separable)</b>
 </div>
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/sixhumpsub.png" alt="sixhump">  
 </p>
+
+## Friedman Test Ranks
+<p align="center" width="100%">
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/FriedmanTest.png" alt="sixhump">  
+</p>
+
