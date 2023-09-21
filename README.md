@@ -18,5 +18,5 @@
     - achieved 24% and 34% minimization of $B_h$ and $B_t$ as compared to SA for micro-drilling with a tool diameter 0.5 mm
     - for tool diameters 0.8 mm and 0.9 mm, 16% and 3% minimization of $B_t$, respectively, were achieved as compared to SA
   - turning of titanium alloy in a minimum quantity lubrication environment
-- ==results from this study highlighted that the LAB outperforms the other algorithms in terms of function evaluations and computational time==
+- **results from this study highlighted that the LAB outperforms the other algorithms in terms of function evaluations and computational time**
 
