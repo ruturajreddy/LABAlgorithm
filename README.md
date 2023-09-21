@@ -20,7 +20,7 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
   - abrasive water jet machining
   - electric discharge machining
   - micro-machining processes
-    - outperformed _SA_, $f_{best}$ and $f_{better}$ by achieving 76%, 85% and 75% minimization of Ra respectively for micro-milling with 0.7 mm tool diameter
+    - outperformed _SA_, $f_{best}$ and $f_{better}$ by achieving 76%, 85% and 75% minimization of $R_a$ respectively for micro-milling with 0.7 mm tool diameter
     - achieved 81%, 72%, 85% minimization of Ra when compared to SA, $f_{best}$ and $f_{better}$ for 1 mm tool diameter
     - achieved 24% and 34% minimization of $B_h$ and $B_t$ as compared to SA for micro-drilling with a tool diameter 0.5 mm
     - for tool diameters 0.8 mm and 0.9 mm, 16% and 3% minimization of $B_t$, respectively, were achieved as compared to SA
@@ -68,9 +68,9 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
     - able to perform slightly better when compared in terms of best solution, mean solution, robustness and computational time when compared to CMAES and IA and was able to outperform PSO2011, CMAES, ABC, JDE, CLPSO, and SADE in computational time
     - LAB demonstrated low robustness but exceedingly low computational time
   - Friedman test by solving 29 benchmark functions from CEC 2017
-    - was also able to solve complex problems with lower standard deviations as compared to LSHADE-Cn-EpsiN and LSHADE
+    - was also able to solve complex problems with lower standard deviations as compared to _LSHADE-Cn-EpsiN_ and _LSHADE_
   - also validated by solving 23 real-world problems to compare exploitation, exploration, computation cost and convergence rate with other well-known and recent algorithms
-    - experimental (Kechigas, 2012), regression (Kechigas, 2012), FA, variations of CI (roulette wheel, fbest, fbetter, alienation), GA, SA, PSO, Multi-CI
+    - _experimental (Kechigas, 2012), regression (Kechigas, 2012), FA, variations of CI (roulette wheel, $f_{best}$, $f_{better}$, alienation), GA, SA, PSO, Multi-CI_
     - run time is quite lower as compared to other algorithms for majority of the problems
     - resulted in higher standard deviation which exhibited its low robustness
  
