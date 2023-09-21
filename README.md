@@ -12,7 +12,7 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/Visualrepresentation.png" width=75% height=75% alt="matyas">  
 </p>
 
-- validated using the CEC 2005 and CEC 2017 benchmark functions
+- validated using the CEC 2005 (27 test problems) and CEC 2017 (29 test problems) benchmark functions
   - statistical tests used : the Wilcoxon pairwise and two-sided test as well as the Friedman Rank Test
     - results compared with other algorithms such as FA, CI, GA, SA, PSO, Multi-CI, CMAES, ABC, SADE, CLPSO, BSA, IA, WOA, SHO, AVOA, LSHADE-Cn-EpsiN, FDB-SFS and LSHADE
 
@@ -76,6 +76,6 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
  
 ----
 ## Future Work
-- enhancements can be done for better and faster computation to solve complex and higher dimension problems easily,
+**- enhancements can be done for better and faster computation to solve complex and higher dimension problems easily,
   - by introducing a method of triggering the algorithm when stuck at local minima to solve a wider range of higher-dimension complex real-life problems
-- can be modified to solve multi-objective problems making the competitive groups to handle different objectives
+- can be modified to solve multi-objective problems making the competitive groups to handle different objectives**
