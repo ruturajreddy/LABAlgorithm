@@ -6,14 +6,15 @@
 - inspired by the AI-based competitive behaviour exhibited by the individuals in a group while simultaneously improving themselves and establishing a role
   - Leader, Advocate and Believer
 - validated using the CEC 2005 and CEC 2017 benchmark functions
+  - statistical tests
+    - the Wilcoxon pairwise and two-sided test and the Friedman Rank Test
+      - results compared with other algorithms such as FA, CI, GA, SA, PSO, Multi-CI, CMAES, ABC, SADE, CLPSO, BSA, IA, WOA, SHO, AVOA, LSHADE-Cn-EpsiN, FDB-SFS and LSHADE
+
 - applied to solve engineering problems
   - abrasive water jet machining
   - electric discharge machining
   - micro-machining processes
   - turning of titanium alloy in a minimum quantity lubrication environment
-- validated using
-  - the Wilcoxon pairwise and two-sided test and the Friedman Rank Test
-    - results compared with other algorithms such as FA, CI, GA, SA, PSO, Multi-CI, CMAES, ABC, SADE, CLPSO, BSA, IA, WOA, SHO, AVOA, LSHADE-Cn-EpsiN, FDB-SFS and LSHADE
 - for real-world problems,
   - outperformed SA, fbest and fbetter by achieving 76%, 85% and 75% minimization of Ra respectively for micro-milling with 0.7 mm tool diameter
   - achieved 81%, 72%, 85% minimization of Ra when compared to SA, fbest and fbetter for 1 mm tool diameter
