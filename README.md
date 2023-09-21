@@ -5,6 +5,7 @@
 - a new socio-inspired metaheuristic technique for engineering and global optimization problems
 - inspired by the AI-based competitive behaviour exhibited by the individuals in a group while simultaneously improving themselves and establishing a role
   - Leader, Advocate and Believer
+
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/matyassub.png" alt="matyas">  
 </p>
