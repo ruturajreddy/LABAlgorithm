@@ -1,6 +1,6 @@
 # LAB-A-leader-advocate-believer-based-optimization-algorithm
 
-##Abstract
+## Abstract
 
 - a new socio-inspired metaheuristic technique for engineering and global optimization problems
 - inspired by the AI-based competitive behaviour exhibited by the individuals in a group while simultaneously improving themselves and establishing a role
