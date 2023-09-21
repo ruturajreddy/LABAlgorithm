@@ -6,9 +6,8 @@
 - inspired by the AI-based competitive behaviour exhibited by the individuals in a group while simultaneously improving themselves and establishing a role
   - Leader, Advocate and Believer
 - validated using the CEC 2005 and CEC 2017 benchmark functions
-  - statistical tests
-    - the Wilcoxon pairwise and two-sided test and the Friedman Rank Test
-      - results compared with other algorithms such as FA, CI, GA, SA, PSO, Multi-CI, CMAES, ABC, SADE, CLPSO, BSA, IA, WOA, SHO, AVOA, LSHADE-Cn-EpsiN, FDB-SFS and LSHADE
+  - statistical tests used : the Wilcoxon pairwise and two-sided test as well as the Friedman Rank Test
+    - results compared with other algorithms such as FA, CI, GA, SA, PSO, Multi-CI, CMAES, ABC, SADE, CLPSO, BSA, IA, WOA, SHO, AVOA, LSHADE-Cn-EpsiN, FDB-SFS and LSHADE
 
 - applied to solve engineering problems
   - abrasive water jet machining
