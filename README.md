@@ -20,5 +20,5 @@
   - turning of titanium alloy in a minimum quantity lubrication environment
 - **results from this study highlighted that the LAB outperforms the other algorithms in terms of function evaluations and computational time**
 
-> Flowchart
-<img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Flowchartpng.png" width="221px" height="768px" alt="makespan">
+## Flowchart
+<img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Flowchartpng.png" alt="makespan">
