@@ -1,7 +1,7 @@
 # LAB : a leader–advocate–believer-based optimization algorithm
-## Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023): LAB : a leader–advocate–believer-based optimization algorithm. Soft Computing (2023). https://doi.org/10.1007/s00500-023-08033-y
+Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023): LAB : a leader–advocate–believer-based optimization algorithm. Soft Computing (2023). https://doi.org/10.1007/s00500-023-08033-y
 
-
+------
 ## Abstract
 
 - a new socio-inspired metaheuristic technique for engineering and global optimization problems
@@ -32,9 +32,10 @@
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/Flowchartpng.png" width="30%" height="30%" alt="flowchart">  
 </p>
 
-## Performance Analysis
+------
 
-### CEC 2005 Functions 
+## CEC 2005 Functions 
+**Convergence Plots**
 <div align="center">
     <b>F10 Booth (Multimodal Separable)</b>
 </div>
@@ -63,8 +64,12 @@
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/sixhumpsub.png" alt="sixhump">  
 </p>
 
-## Friedman Test Ranks
+#### Friedman Test Ranks
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/FriedmanTest.png" alt="sixhump">  
 </p>
 
+## CEC 2017 Functions 
+<p align="center" width="100%">
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/convergenceplots2017.png" alt="2017ConvergencePlots">  
+</p>
