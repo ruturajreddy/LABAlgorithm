@@ -21,7 +21,7 @@
 - **results from this study highlighted that the LAB outperforms the other algorithms in terms of function evaluations and computational time**
 
 ## Flowchart
-<p align="center">
+<p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Flowchartpng.png" width="30%" height="30%" alt="makespan">  
 </p>
 
