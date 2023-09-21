@@ -27,22 +27,34 @@
 
 ## Performance Analysis
 
-**Booth**
+<div align="center">
+    <b>Booth</b>
+</div>
+
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/boothsub.png" alt="booth">  
 </p>
 
-**Hartmann6**
+<div align="center">
+    <b>Hartmann6</b>
+</div>
+
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/hartmann6sub.png" alt="hartmann6">  
 </p>
 
-**Matyas**
+<div align="center">
+    <b>Matyas</b>
+</div>
+
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/matyassub.png" alt="matyas">  
 </p>
 
-**Sixhump Camelback**
+<div align="center">
+    <b>Sixhump Camelback</b>
+</div>
+
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/sixhumpsub.png" alt="sixhump">  
 </p>
