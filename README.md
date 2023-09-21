@@ -14,7 +14,7 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
 
 - validated using the CEC 2005 (27 test problems) and CEC 2017 (29 test problems) benchmark functions
   - statistical tests used : the Wilcoxon pairwise and two-sided test as well as the Friedman Rank Test
-    - results compared with other algorithms such as FA, CI, GA, SA, PSO, Multi-CI, CMAES, ABC, SADE, CLPSO, BSA, IA, WOA, SHO, AVOA, LSHADE-Cn-EpsiN, FDB-SFS and LSHADE
+    - results compared with other algorithms such as _FA, CI, GA, SA, PSO, Multi-CI, CMAES, ABC, SADE, CLPSO, BSA, IA, WOA, SHO, AVOA, LSHADE-Cn-EpsiN, FDB-SFS_ and _LSHADE_
 
 - applied to solve engineering problems
   - abrasive water jet machining
