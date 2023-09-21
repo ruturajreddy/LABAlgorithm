@@ -39,6 +39,12 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/convergenceplots2005.png" alt="booth">  
 </p>
 
+#### Wilcoxon pairwise test (CEC 2005)
+<p align="center" width="100%">
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/pairwise.png" alt="sixhump">  
+</p>
+
+
 #### Friedman Test Ranks (CEC 2005)
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/FriedmanTest.png" alt="sixhump">  
@@ -53,3 +59,23 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/friedman2017.png" alt="sixhump">  
 </p>
+
+
+------
+## Conclusions
+- examined by solving 27 benchmark test problems from CEC 2005
+  - a statistical comparison using the Wilcoxon-signed rank test
+    - able to perform slightly better when compared in terms of best solution, mean solution, robustness and computational time when compared to CMAES and IA and was able to outperform PSO2011, CMAES, ABC, JDE, CLPSO, and SADE in computational time
+    - LAB demonstrated low robustness but exceedingly low computational time
+  - Friedman test by solving 29 benchmark functions from CEC 2017
+    - was also able to solve complex problems with lower standard deviations as compared to LSHADE-Cn-EpsiN and LSHADE
+  - also validated by solving 23 real-world problems to compare exploitation, exploration, computation cost and convergence rate with other well-known and recent algorithms
+    - experimental (Kechigas, 2012), regression (Kechigas, 2012), FA, variations of CI (roulette wheel, fbest, fbetter, alienation), GA, SA, PSO, Multi-CI
+    - run time is quite lower as compared to other algorithms for majority of the problems
+    - resulted in higher standard deviation which exhibited its low robustness
+ 
+----
+## Future Work
+- enhancements can be done for better and faster computation to solve complex and higher dimension problems easily,
+  - by introducing a method of triggering the algorithm when stuck at local minima to solve a wider range of higher-dimension complex real-life problems
+- can be modified to solve multi-objective problems making the competitive groups to handle different objectives
