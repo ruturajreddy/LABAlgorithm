@@ -20,4 +20,4 @@
   - turning of titanium alloy in a minimum quantity lubrication environment
 - **results from this study highlighted that the LAB outperforms the other algorithms in terms of function evaluations and computational time**
 
-% <img src="https://raw.githubusercontent.com/Wangxh329/PSOAlgorithms/master/doc/makespan.bmp" width="768px" height="421px" alt="makespan">
+% <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Flowchartpng.png" width="768px" height="421px" alt="makespan">
