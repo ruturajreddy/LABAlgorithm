@@ -34,42 +34,22 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
 
 ------
 
-## CEC 2005 Functions 
-**Convergence Plots**
-<div align="center">
-    <b>F10 Booth (Multimodal Separable)</b>
-</div>
+## CEC 2005 Functions
 <p align="center" width="100%">
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/boothsub.png" alt="booth">  
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/convergenceplots2005.png" alt="booth">  
 </p>
 
-<div align="center">
-    <b>F20 Hartmann6 (Multimodal Non-separable)</b>
-</div>
-<p align="center" width="100%">
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/hartmann6sub.png" alt="hartmann6">  
-</p>
-
-<div align="center">
-    <b>F25 Matyas (Unimodal Separable)</b>
-</div>
-<p align="center" width="100%">
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/matyassub.png" alt="matyas">  
-</p>
-
-<div align="center">
-    <b>F43 Sixhump Camelback (Multimodal Non-separable)</b>
-</div>
-<p align="center" width="100%">
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/sixhumpsub.png" alt="sixhump">  
-</p>
-
-#### Friedman Test Ranks
+#### Friedman Test Ranks (CEC 2005)
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/FriedmanTest.png" alt="sixhump">  
 </p>
 
-## CEC 2017 Functions 
+## CEC 2017 Functions
 <p align="center" width="100%">
   <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/convergenceplots2017.png" alt="2017ConvergencePlots">  
+</p>
+
+#### Friedman Test Ranks (CEC 2017)
+<p align="center" width="100%">
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/friedman2017.png" alt="sixhump">  
 </p>
