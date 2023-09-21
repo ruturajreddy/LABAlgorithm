@@ -70,7 +70,7 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
   - Friedman test by solving 29 benchmark functions from CEC 2017
     - was also able to solve complex problems with lower standard deviations as compared to _LSHADE-Cn-EpsiN_ and _LSHADE_
   - also validated by solving 23 real-world problems to compare exploitation, exploration, computation cost and convergence rate with other well-known and recent algorithms
-    - _experimental (Kechigas, 2012), regression (Kechigas, 2012), FA, variations of CI (roulette wheel, $f_{best}$, $f_{better}$, alienation), GA, SA, PSO, Multi-CI_
+    - _experimental (Kechigas, 2012), regression (Kechigas, 2012), FA, variations of CI (roulette wheel_, $f_{best}$, $f_{better}$, _alienation), GA, SA, PSO, Multi-CI_
     - run time is quite lower as compared to other algorithms for majority of the problems
     - resulted in higher standard deviation which exhibited its low robustness
  
