@@ -76,6 +76,6 @@ Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023
  
 ----
 ## Future Work
-**- enhancements can be done for better and faster computation to solve complex and higher dimension problems easily,
-  - by introducing a method of triggering the algorithm when stuck at local minima to solve a wider range of higher-dimension complex real-life problems
-- can be modified to solve multi-objective problems making the competitive groups to handle different objectives**
+- **enhancements can be done for better and faster computation to solve complex and higher dimension problems easily,**
+  - **by introducing a method of triggering the algorithm when stuck at local minima to solve a wider range of higher-dimension complex real-life problems**
+- **can be modified to solve multi-objective problems making the competitive groups to handle different objectives**
