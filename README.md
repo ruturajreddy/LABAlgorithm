@@ -7,7 +7,7 @@
   - Leader, Advocate and Believer
 
 <p align="center" width="100%">
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/Visualrepresentation" alt="matyas">  
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/Visualrepresentation.png" width=75% height=75% alt="matyas">  
 </p>
 
 - validated using the CEC 2005 and CEC 2017 benchmark functions
