@@ -28,8 +28,8 @@
 ## Performance Analysis
 
 <p align="center" width="100%">
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/boothsub.png" width="30%" height="30%" alt="flowchart">  
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/hartmann6.png" width="30%" height="30%" alt="flowchart">  
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/matyas.png" width="30%" height="30%" alt="flowchart">  
-  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/sixhump.png" width="30%" height="30%" alt="flowchart">  
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/boothsub.png" alt="booth">  
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/hartmann6sub.png" alt="hartmann6">  
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/matyassub.png" alt="matyas">  
+  <img src="https://github.com/ruturajreddy/LAB-A-leader-advocate-believer-based-optimization-algorithm/blob/main/Files/sixhumpsub.png" alt="sixhump">  
 </p>
