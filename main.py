@@ -10,8 +10,8 @@ class LAB:
         self.minimise = minimise
 
     # weights are required according to the number of individuals to be followed
-    def weights(self, members):
-        w = np.random.random(members)
+    def weights(self, individuals_to_follow):
+        w = np.random.random(individuals_to_follow)
         return np.sort(w / w.sum())[::-1]
 
     def fitness_function(self, generated_individuals):
