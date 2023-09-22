@@ -55,7 +55,7 @@ class LAB:
         self.population = self.generating_individuals()
 
         for iteration in range(num_iterations):
-            # Update follow direction of each individual using the update_follow_directions method
+            # update follow direction of each individual using the update_follow_directions method
             self.population = np.array(self.population)
             self.population = self.update_search_direction(self.population)
 
