@@ -64,7 +64,7 @@ class LAB:
 
             # calculate the fitness function for the updated individuals
             for g in range(self.groups):
-                self.population[g] = self.fitness_function(self.population[g, :, :2])
+                self.population[g] = self.fitness_function(self.population[g, :, :self.dimensions])
 
             # rank the individuals and establish global leader using the intra_inter_sorting method
             self.population = self.intra_inter_sorting(self.population)
