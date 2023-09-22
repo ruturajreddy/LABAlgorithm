@@ -1,131 +1,77 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from numpy import exp
-from numpy import sqrt
-from numpy import cos
-from numpy import sin
-from numpy import e
-from numpy import pi
-import math
 
-def assign(sets, indi, dim):
-  global di
-  global se
-  global ind
-  global tot
+class LAB:
+    def __init__(self, groups, individuals, dimensions, lower_bound, upper_bound, minimise):
+        self.groups = groups
+        self.individuals = individuals
+        self.dimensions = dimensions
+        self.lower_bound = lower_bound
+        self.upper_bound = upper_bound
+        self.minimise = minimise
 
-  di = dim
-  se = sets
-  ind = indi
-  total = sets*indi
-  tot = total
+    # weights are required according to the number of individuals to be followed
+    def weights(self, members):
+        w = np.random.random(members)
+        return np.sort(w / w.sum())[::-1]
 
-  global all_variables
+    def fitness_function(self, generated_individuals):
+        return np.column_stack((generated_individuals, np.sum(generated_individuals**2, axis=1)))
 
-  all_variables = []
+    def intra_inter_sorting(self, population):
+        # sorted_population = sorted(population, key=sorting_key, reverse=False)
+        sorted_population = [np.array(sorted(group, key=lambda x: x[-1], reverse=not self.minimise)) for group in population]
+        # Sort the groups based on the first item's last element (sum) in ascending order
+        return sorted(sorted_population, key=lambda set_group: set_group[0][-1])
 
-  all_variables = all_var(tot)
+    def generating_individuals(self):
+        generated_individuals = np.random.uniform(self.lower_bound, self.upper_bound, (self.groups * self.individuals, self.dimensions))
+        generated_individuals = self.fitness_function(generated_individuals)
+        return self.intra_inter_sorting(np.array_split(generated_individuals, self.groups))
 
-  all_variables.sort(key=lambda x:x[dim])
+    # LAB algorithm formulations
+    def update_search_direction(self, population):
 
-  global leaders
-  leaders = all_variables[:sets]
-  del all_variables[:sets]
+        # updating the search direction for leaders
+        # global leader*weight1 + advocate*weight2 + mean(believers)*weight3
+        for l in range(self.groups):
+            w = self.weights(3)
+            population[l][0] = population[0][0]*w[0] + population[l][1]*w[1] + np.mean(population[l][2:], axis=0)*w[2]
 
-  global advocates
-  advocates = all_variables[:sets]
-  del all_variables[:sets]
-  
-  global believers
-  believers = all_variables
+        # updating the search direction for advocates
+        # associated_leader*weight + mean_associated_believers*weight
+        for a in range(self.groups):
+            w = self.weights(2)
+            population[a][1] = population[a][0]*w[0] + np.mean(population[a][2:], axis=0)*w[1]
 
-  for x in range(1, se+1):
-    globals()['S%s' % x] = []
-    globals()['S%s' % x].insert(0, leaders[0])
-    del leaders[0]
-    globals()['S%s' % x].insert(1, advocates[0])
-    del advocates[0]
+        # updating search direction for believers
+        # associated_leader + associated_advocate
+        for g in range(self.groups):
+            for b in range(self.individuals):
+                w = self.weights(2)
+                population[g][b] = population[g][0] * w[0] + population[g][1] * w[1]
 
-    for k in range(2,indi):
-      globals()['S%s' % x].insert(k, believers[0])
-      del believers[0]
-    
-  iters(100, S1, S2, S3, S4)
+        return population
+
+    def run_iterations(self, num_iterations):
+        self.population = self.generating_individuals()
+
+        for iteration in range(num_iterations):
+            # Update follow direction of each individual using the update_follow_directions method
+            self.population = np.array(self.population)
+            self.population = self.update_search_direction(self.population)
+
+            # calculate the fitness function for the updated individuals
+            for g in range(self.groups):
+                self.population[g] = self.fitness_function(self.population[g, :, :2])
+
+            # rank the individuals and establish global leader using the intra_inter_sorting method
+            self.population = self.intra_inter_sorting(self.population)
+
+            # viewing the global best individual at each iteration
+            print(f"Iteration {iteration + 1}:{self.population[0][0]}")
 
 
-def weights(num):
-  global w
-  w = []
-  w = np.random.random(num)
-  if num > 1 :
-    w /= w.sum()
-    w.sort()
-    w = w[::-1]
-
-
-def iters(iters, S1, S2, S3, S4):
-
-  for i in range(1,ind+1):
-    globals()['x%s' % i] = []
-
-  for iter in range(iters):
-  
-    for x in range(1,se+1):
-      lead = []
-      for i in range(di):  
-        sum = 0
-
-        for k in range(2,ind):
-          sum = globals()['S%s' % x][k][i] + sum
-        top = 0
-        r = 0
-        weights(3)
-        top = S1[0][i]*w[0] + globals()['S%s' % x][1][i]*w[1]
-        lead.append(top + sum/(ind-2)*w[2])
-
-      ad = []
-      for a in range(di):
-        sum = 0
-        for k in range(2,ind):
-          sum = globals()['S%s' % x][k][a] + sum
-        weights(2)
-        ad.append(globals()['S%s' % x][0][a]*w[0] + (sum/(ind-2))*w[1])
-
-      bb = []
-      for jj in range(2,ind):
-        ap = []
-        for i in range(di):
-          B = 0
-          weights(2)
-          r = 0
-          for j in range(2):
-            B = globals()['S%s' % x][j][i]*w[r] + B
-            r += 1
-          ap.append(B)
-        bb.append(ap)
-      globals()['S%s' % x] = []
-
-      globals()['S%s' % x].append(lead)
-      globals()['S%s' % x].append(ad)
-      for i in range(len(bb)):
-        globals()['S%s' % x].append(bb[i])
-
-      for i in range(ind):
-        sum = indis(globals()['S%s' % x][i])
-
-        globals()['S%s' % x][i].append(sum)
-        globals()['x%s' % x].append(sum)
-      globals()['S%s' % x].sort(key=lambda x:x[di])
-
-      
-    tmp = 0
-    for x in range(1,se+1):
-      if (S1[0][di]) > (globals()['S%s' % x][0][di]):
-        tmp = S1
-        S1 = globals()['S%s' % x]
-        globals()['S%s' % x] = tmp
-
-  plott(x1,x2,x3,x4, iters,ind)
-
-count = []
+lab_instance = LAB(groups=3, individuals=5, dimensions=2, lower_bound=-5, upper_bound=5, minimise=True)
+lab_instance.run_iterations(num_iterations=10)
