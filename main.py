@@ -37,13 +37,13 @@ class LAB:
             population[l][0] = population[0][0]*w[0] + population[l][1]*w[1] + np.mean(population[l][2:], axis=0)*w[2]
 
         # updating the search direction for advocates
-        # associated_leader*weight + mean_associated_believers*weight
+        # associated_leader*weight1 + mean_associated_believers*weight2
         for a in range(self.groups):
             w = self.weights(2)
             population[a][1] = population[a][0]*w[0] + np.mean(population[a][2:], axis=0)*w[1]
 
         # updating search direction for believers
-        # associated_leader + associated_advocate
+        # associated_leader*weight1 + associated_advocate*weight2
         for g in range(self.groups):
             for b in range(self.individuals):
                 w = self.weights(2)
