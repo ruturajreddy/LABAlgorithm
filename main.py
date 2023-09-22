@@ -1,6 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
-
 
 class LAB:
     def __init__(self, groups, individuals, dimensions, lower_bound, upper_bound, minimise):
