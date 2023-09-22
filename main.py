@@ -18,9 +18,8 @@ class LAB:
         return np.column_stack((generated_individuals, np.sum(generated_individuals**2, axis=1)))
 
     def intra_inter_sorting(self, population):
-        # sorted_population = sorted(population, key=sorting_key, reverse=False)
         sorted_population = [np.array(sorted(group, key=lambda x: x[-1], reverse=not self.minimise)) for group in population]
-        # Sort the groups based on the first item's last element (sum) in ascending order
+        # Sort the groups based on the first item's last element (fitness value) in ascending order
         return sorted(sorted_population, key=lambda set_group: set_group[0][-1])
 
     def generating_individuals(self):
