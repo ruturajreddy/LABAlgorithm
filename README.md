@@ -1,5 +1,5 @@
-# LAB : a leader–advocate–believer-based optimization algorithm
-Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023): LAB : a leader–advocate–believer-based optimization algorithm. Soft Computing (2023). https://doi.org/10.1007/s00500-023-08033-y
+# [LAB : a leader–advocate–believer-based optimization algorithm](https://doi.org/10.1007/s00500-023-08033-y)
+Reddy, R., Kulkarni, A.J., Krishnasamy, G., Shastri, A. S., Gandomi, A. H. (2023): LAB : a leader–advocate–believer-based optimization algorithm. Soft Computing (2023). DOI:10.1007/s00500-023-08033-y
 
 ------
 ## Abstract
