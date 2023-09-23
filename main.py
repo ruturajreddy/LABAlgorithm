@@ -1,5 +1,9 @@
 import numpy as np
 
+# using the ofunu library for CEC 2017 benchmark test problems(https://opfunu.readthedocs.io)
+import opfunu
+function = opfunu.cec_based.F52017(ndim=30)
+
 class LAB:
     def __init__(self, groups, individuals, dimensions, lower_bound, upper_bound, minimise):
         self.groups = groups
@@ -15,7 +19,8 @@ class LAB:
         return np.sort(w / w.sum())[::-1]
 
     def fitness_function(self, generated_individuals):
-        return np.column_stack((generated_individuals, np.sum(generated_individuals**2, axis=1)))
+        function_value = np.array([function.evaluate(individual) for individual in generated_individuals])
+        return np.column_stack((generated_individuals, function_value))
 
     def intra_inter_sorting(self, population):
         sorted_population = [np.array(sorted(group, key=lambda x: x[-1], reverse=not self.minimise)) for group in population]
