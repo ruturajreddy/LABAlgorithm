@@ -36,7 +36,7 @@ class LAB:
     def update_search_direction(self, population):
 
         # updating the search direction for leaders
-        # global_leader*weight1 + advocate*weight2 + mean(believers)*weight3
+        # global_leader*weight1 + advocate*weight2 + mean_associated_believers*weight3
         for l in range(self.groups):
             w = self.weights(3)
             population[l][0] = population[0][0]*w[0] + population[l][1]*w[1] + np.mean(population[l][2:], axis=0)*w[2]
