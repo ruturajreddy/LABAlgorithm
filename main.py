@@ -75,5 +75,5 @@ class LAB:
             print(f"Iteration {iteration + 1}:{self.population[0][0]}")
 
 if __name__ == "__main__":
-    lab_instance = LAB(groups=3, individuals=5, dimensions=2, lower_bound=-5, upper_bound=5, minimise=True)
+    lab_instance = LAB(groups=3, individuals=5, dimensions=30, lower_bound=-100, upper_bound=100, minimise=True)
     lab_instance.run_iterations(num_iterations=10)
